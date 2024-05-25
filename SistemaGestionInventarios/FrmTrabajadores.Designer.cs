@@ -76,9 +76,9 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(44, 81);
+            this.groupBox1.Location = new System.Drawing.Point(27, 57);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(647, 621);
+            this.groupBox1.Size = new System.Drawing.Size(1215, 406);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Trabajadores";
@@ -87,7 +87,7 @@
             // 
             this.txtDireccion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtDireccion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtDireccion.Location = new System.Drawing.Point(261, 395);
+            this.txtDireccion.Location = new System.Drawing.Point(850, 146);
             this.txtDireccion.Multiline = true;
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -101,7 +101,7 @@
             this.comboBoxSexo.Items.AddRange(new object[] {
             "Masculino",
             "Femenino"});
-            this.comboBoxSexo.Location = new System.Drawing.Point(261, 174);
+            this.comboBoxSexo.Location = new System.Drawing.Point(850, 61);
             this.comboBoxSexo.Name = "comboBoxSexo";
             this.comboBoxSexo.Size = new System.Drawing.Size(300, 30);
             this.comboBoxSexo.TabIndex = 48;
@@ -110,7 +110,7 @@
             // 
             this.txtTelefono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtTelefono.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtTelefono.Location = new System.Drawing.Point(261, 476);
+            this.txtTelefono.Location = new System.Drawing.Point(261, 230);
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(300, 28);
             this.txtTelefono.TabIndex = 22;
@@ -118,7 +118,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(34, 476);
+            this.label9.Location = new System.Drawing.Point(36, 232);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(86, 22);
             this.label9.TabIndex = 21;
@@ -127,7 +127,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(34, 318);
+            this.label8.Location = new System.Drawing.Point(30, 176);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(133, 22);
             this.label8.TabIndex = 19;
@@ -135,7 +135,7 @@
             // 
             // dateTimePickerNacimiento
             // 
-            this.dateTimePickerNacimiento.Location = new System.Drawing.Point(261, 234);
+            this.dateTimePickerNacimiento.Location = new System.Drawing.Point(850, 243);
             this.dateTimePickerNacimiento.Name = "dateTimePickerNacimiento";
             this.dateTimePickerNacimiento.Size = new System.Drawing.Size(300, 28);
             this.dateTimePickerNacimiento.TabIndex = 16;
@@ -143,7 +143,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(34, 240);
+            this.label6.Location = new System.Drawing.Point(651, 249);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(184, 22);
             this.label6.TabIndex = 15;
@@ -153,7 +153,7 @@
             // 
             this.txtNumeroDUI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtNumeroDUI.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtNumeroDUI.Location = new System.Drawing.Point(261, 318);
+            this.txtNumeroDUI.Location = new System.Drawing.Point(261, 170);
             this.txtNumeroDUI.Name = "txtNumeroDUI";
             this.txtNumeroDUI.Size = new System.Drawing.Size(300, 28);
             this.txtNumeroDUI.TabIndex = 14;
@@ -161,7 +161,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(34, 395);
+            this.label2.Location = new System.Drawing.Point(651, 146);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 22);
             this.label2.TabIndex = 12;
@@ -170,7 +170,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(34, 174);
+            this.label1.Location = new System.Drawing.Point(651, 61);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 22);
             this.label1.TabIndex = 11;
@@ -189,7 +189,7 @@
             // 
             this.btnLimpiar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnLimpiar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLimpiar.Location = new System.Drawing.Point(454, 555);
+            this.btnLimpiar.Location = new System.Drawing.Point(498, 333);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(107, 51);
             this.btnLimpiar.TabIndex = 9;
@@ -201,7 +201,7 @@
             // 
             this.btnEditar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEditar.Location = new System.Drawing.Point(314, 555);
+            this.btnEditar.Location = new System.Drawing.Point(344, 333);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(107, 51);
             this.btnEditar.TabIndex = 8;
@@ -213,7 +213,7 @@
             // 
             this.btnEliinar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnEliinar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEliinar.Location = new System.Drawing.Point(173, 555);
+            this.btnEliinar.Location = new System.Drawing.Point(193, 333);
             this.btnEliinar.Name = "btnEliinar";
             this.btnEliinar.Size = new System.Drawing.Size(107, 51);
             this.btnEliinar.TabIndex = 7;
@@ -225,7 +225,7 @@
             // 
             this.btnAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnAgregar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAgregar.Location = new System.Drawing.Point(28, 555);
+            this.btnAgregar.Location = new System.Drawing.Point(40, 333);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(107, 51);
             this.btnAgregar.TabIndex = 6;
@@ -271,11 +271,11 @@
             // dgvTrabajadores
             // 
             this.dgvTrabajadores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTrabajadores.Location = new System.Drawing.Point(714, 93);
+            this.dgvTrabajadores.Location = new System.Drawing.Point(27, 490);
             this.dgvTrabajadores.Name = "dgvTrabajadores";
             this.dgvTrabajadores.RowHeadersWidth = 51;
             this.dgvTrabajadores.RowTemplate.Height = 24;
-            this.dgvTrabajadores.Size = new System.Drawing.Size(785, 465);
+            this.dgvTrabajadores.Size = new System.Drawing.Size(1215, 247);
             this.dgvTrabajadores.TabIndex = 6;
             // 
             // label7
@@ -283,7 +283,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Maroon;
-            this.label7.Location = new System.Drawing.Point(554, 27);
+            this.label7.Location = new System.Drawing.Point(519, 9);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(202, 36);
             this.label7.TabIndex = 9;
@@ -293,7 +293,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1539, 714);
+            this.ClientSize = new System.Drawing.Size(1477, 812);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dgvTrabajadores);
             this.Controls.Add(this.groupBox1);

@@ -107,9 +107,9 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(36, 117);
+            this.groupBox1.Location = new System.Drawing.Point(36, 98);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(638, 480);
+            this.groupBox1.Size = new System.Drawing.Size(1224, 431);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ventas";
@@ -121,14 +121,14 @@
             this.comboBoxComprobante.Items.AddRange(new object[] {
             "TICKET",
             "FACTURA"});
-            this.comboBoxComprobante.Location = new System.Drawing.Point(237, 133);
+            this.comboBoxComprobante.Location = new System.Drawing.Point(237, 79);
             this.comboBoxComprobante.Name = "comboBoxComprobante";
             this.comboBoxComprobante.Size = new System.Drawing.Size(300, 30);
             this.comboBoxComprobante.TabIndex = 18;
             // 
             // dateTimePickerFechaVenta
             // 
-            this.dateTimePickerFechaVenta.Location = new System.Drawing.Point(237, 63);
+            this.dateTimePickerFechaVenta.Location = new System.Drawing.Point(776, 171);
             this.dateTimePickerFechaVenta.Name = "dateTimePickerFechaVenta";
             this.dateTimePickerFechaVenta.Size = new System.Drawing.Size(300, 28);
             this.dateTimePickerFechaVenta.TabIndex = 17;
@@ -137,7 +137,7 @@
             // 
             this.txtPrecioTotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtPrecioTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtPrecioTotal.Location = new System.Drawing.Point(237, 326);
+            this.txtPrecioTotal.Location = new System.Drawing.Point(776, 81);
             this.txtPrecioTotal.Name = "txtPrecioTotal";
             this.txtPrecioTotal.Size = new System.Drawing.Size(300, 28);
             this.txtPrecioTotal.TabIndex = 16;
@@ -145,7 +145,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(32, 326);
+            this.label6.Location = new System.Drawing.Point(643, 79);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(112, 22);
             this.label6.TabIndex = 15;
@@ -155,7 +155,7 @@
             // 
             this.txtCorrelativo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtCorrelativo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtCorrelativo.Location = new System.Drawing.Point(237, 254);
+            this.txtCorrelativo.Location = new System.Drawing.Point(237, 251);
             this.txtCorrelativo.Name = "txtCorrelativo";
             this.txtCorrelativo.Size = new System.Drawing.Size(300, 28);
             this.txtCorrelativo.TabIndex = 14;
@@ -164,7 +164,7 @@
             // 
             this.txtSerie.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtSerie.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSerie.Location = new System.Drawing.Point(237, 188);
+            this.txtSerie.Location = new System.Drawing.Point(237, 177);
             this.txtSerie.Name = "txtSerie";
             this.txtSerie.Size = new System.Drawing.Size(300, 28);
             this.txtSerie.TabIndex = 13;
@@ -172,7 +172,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(32, 260);
+            this.label2.Location = new System.Drawing.Point(33, 253);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(102, 22);
             this.label2.TabIndex = 12;
@@ -181,7 +181,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 188);
+            this.label1.Location = new System.Drawing.Point(43, 177);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 22);
             this.label1.TabIndex = 11;
@@ -191,7 +191,7 @@
             // 
             this.btnLimpiar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnLimpiar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLimpiar.Location = new System.Drawing.Point(477, 412);
+            this.btnLimpiar.Location = new System.Drawing.Point(541, 355);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(107, 51);
             this.btnLimpiar.TabIndex = 9;
@@ -202,7 +202,7 @@
             // 
             this.btnEditar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEditar.Location = new System.Drawing.Point(324, 412);
+            this.btnEditar.Location = new System.Drawing.Point(371, 355);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(107, 51);
             this.btnEditar.TabIndex = 8;
@@ -214,7 +214,7 @@
             // 
             this.btnEliinar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnEliinar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEliinar.Location = new System.Drawing.Point(178, 412);
+            this.btnEliinar.Location = new System.Drawing.Point(212, 355);
             this.btnEliinar.Name = "btnEliinar";
             this.btnEliinar.Size = new System.Drawing.Size(107, 51);
             this.btnEliinar.TabIndex = 7;
@@ -226,7 +226,7 @@
             // 
             this.btnAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnAgregar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAgregar.Location = new System.Drawing.Point(28, 412);
+            this.btnAgregar.Location = new System.Drawing.Point(47, 355);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(107, 51);
             this.btnAgregar.TabIndex = 6;
@@ -236,7 +236,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(30, 133);
+            this.label5.Location = new System.Drawing.Point(24, 79);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(164, 22);
             this.label5.TabIndex = 2;
@@ -245,7 +245,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(30, 68);
+            this.label4.Location = new System.Drawing.Point(643, 177);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(117, 22);
             this.label4.TabIndex = 1;
@@ -262,11 +262,11 @@
             // dgvVentas
             // 
             this.dgvVentas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvVentas.Location = new System.Drawing.Point(692, 117);
+            this.dgvVentas.Location = new System.Drawing.Point(36, 547);
             this.dgvVentas.Name = "dgvVentas";
             this.dgvVentas.RowHeadersWidth = 51;
             this.dgvVentas.RowTemplate.Height = 24;
-            this.dgvVentas.Size = new System.Drawing.Size(664, 480);
+            this.dgvVentas.Size = new System.Drawing.Size(1224, 267);
             this.dgvVentas.TabIndex = 5;
             // 
             // label7
@@ -284,7 +284,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1465, 617);
+            this.ClientSize = new System.Drawing.Size(1465, 901);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dgvVentas);
             this.Controls.Add(this.groupBox1);

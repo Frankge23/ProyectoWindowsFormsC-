@@ -37,10 +37,6 @@
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.btnQuitar = new System.Windows.Forms.Button();
-            this.btnAgregar = new System.Windows.Forms.Button();
-            this.dtFecha_Vencimiento = new System.Windows.Forms.DateTimePicker();
-            this.label15 = new System.Windows.Forms.Label();
             this.dtFecha_Produccion = new System.Windows.Forms.DateTimePicker();
             this.label14 = new System.Windows.Forms.Label();
             this.txtPrecio_Venta = new System.Windows.Forms.TextBox();
@@ -49,7 +45,6 @@
             this.label12 = new System.Windows.Forms.Label();
             this.txtStockInicial = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.btnBuscarArticulo = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.txtArticulo = new System.Windows.Forms.TextBox();
             this.dgvDetallesIngresos = new System.Windows.Forms.DataGridView();
@@ -68,10 +63,6 @@
             this.groupBox2.Controls.Add(this.btnEditar);
             this.groupBox2.Controls.Add(this.btnEliminar);
             this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.btnQuitar);
-            this.groupBox2.Controls.Add(this.btnAgregar);
-            this.groupBox2.Controls.Add(this.dtFecha_Vencimiento);
-            this.groupBox2.Controls.Add(this.label15);
             this.groupBox2.Controls.Add(this.dtFecha_Produccion);
             this.groupBox2.Controls.Add(this.label14);
             this.groupBox2.Controls.Add(this.txtPrecio_Venta);
@@ -80,7 +71,6 @@
             this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.txtStockInicial);
             this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.btnBuscarArticulo);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.txtArticulo);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -95,7 +85,7 @@
             // 
             this.txtDescuentos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtDescuentos.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtDescuentos.Location = new System.Drawing.Point(548, 254);
+            this.txtDescuentos.Location = new System.Drawing.Point(548, 198);
             this.txtDescuentos.Name = "txtDescuentos";
             this.txtDescuentos.ReadOnly = true;
             this.txtDescuentos.Size = new System.Drawing.Size(158, 28);
@@ -104,7 +94,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(405, 254);
+            this.label2.Location = new System.Drawing.Point(411, 198);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(110, 22);
             this.label2.TabIndex = 48;
@@ -173,45 +163,12 @@
             this.button1.Text = "&Agregar";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // btnQuitar
-            // 
-            this.btnQuitar.Location = new System.Drawing.Point(734, 120);
-            this.btnQuitar.Name = "btnQuitar";
-            this.btnQuitar.Size = new System.Drawing.Size(57, 33);
-            this.btnQuitar.TabIndex = 41;
-            this.btnQuitar.UseVisualStyleBackColor = true;
-            // 
-            // btnAgregar
-            // 
-            this.btnAgregar.Location = new System.Drawing.Point(734, 44);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(57, 33);
-            this.btnAgregar.TabIndex = 40;
-            this.btnAgregar.UseVisualStyleBackColor = true;
-            // 
-            // dtFecha_Vencimiento
-            // 
-            this.dtFecha_Vencimiento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtFecha_Vencimiento.Location = new System.Drawing.Point(548, 118);
-            this.dtFecha_Vencimiento.Name = "dtFecha_Vencimiento";
-            this.dtFecha_Vencimiento.Size = new System.Drawing.Size(148, 28);
-            this.dtFecha_Vencimiento.TabIndex = 39;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(405, 125);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(116, 22);
-            this.label15.TabIndex = 38;
-            this.label15.Text = "Fecha Venc.:";
-            // 
             // dtFecha_Produccion
             // 
             this.dtFecha_Produccion.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtFecha_Produccion.Location = new System.Drawing.Point(548, 49);
             this.dtFecha_Produccion.Name = "dtFecha_Produccion";
-            this.dtFecha_Produccion.Size = new System.Drawing.Size(148, 28);
+            this.dtFecha_Produccion.Size = new System.Drawing.Size(220, 28);
             this.dtFecha_Produccion.TabIndex = 33;
             // 
             // label14
@@ -278,14 +235,6 @@
             this.label5.TabIndex = 32;
             this.label5.Text = "Stock Inicial:";
             // 
-            // btnBuscarArticulo
-            // 
-            this.btnBuscarArticulo.Location = new System.Drawing.Point(339, 55);
-            this.btnBuscarArticulo.Name = "btnBuscarArticulo";
-            this.btnBuscarArticulo.Size = new System.Drawing.Size(43, 31);
-            this.btnBuscarArticulo.TabIndex = 32;
-            this.btnBuscarArticulo.UseVisualStyleBackColor = true;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -347,10 +296,6 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button btnQuitar;
-        private System.Windows.Forms.Button btnAgregar;
-        private System.Windows.Forms.DateTimePicker dtFecha_Vencimiento;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.DateTimePicker dtFecha_Produccion;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox txtPrecio_Venta;
@@ -359,7 +304,6 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox txtStockInicial;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button btnBuscarArticulo;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtArticulo;
         private System.Windows.Forms.Button btnLimpiar;

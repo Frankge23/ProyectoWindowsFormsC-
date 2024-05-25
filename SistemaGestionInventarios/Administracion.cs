@@ -80,9 +80,8 @@ namespace SistemaGestionInventarios
             AbrirFormEnPanel(new FrmTrabajadores());
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnDetalleIngreso_Click(object sender, EventArgs e)
         {
-            AbrirFormEnPanel(new FrmCategorias());
 
         }
     }

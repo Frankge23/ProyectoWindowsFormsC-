@@ -82,7 +82,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(49, 51);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(647, 650);
+            this.groupBox1.Size = new System.Drawing.Size(1204, 515);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Clientes";
@@ -94,7 +94,7 @@
             this.comboBoxDocumento.Items.AddRange(new object[] {
             "DUI",
             "CARNET"});
-            this.comboBoxDocumento.Location = new System.Drawing.Point(261, 316);
+            this.comboBoxDocumento.Location = new System.Drawing.Point(840, 143);
             this.comboBoxDocumento.Name = "comboBoxDocumento";
             this.comboBoxDocumento.Size = new System.Drawing.Size(300, 30);
             this.comboBoxDocumento.TabIndex = 49;
@@ -103,7 +103,7 @@
             // 
             this.txtDireccion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtDireccion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtDireccion.Location = new System.Drawing.Point(261, 441);
+            this.txtDireccion.Location = new System.Drawing.Point(261, 265);
             this.txtDireccion.Multiline = true;
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -117,7 +117,7 @@
             this.comboBoxSexo.Items.AddRange(new object[] {
             "Masculino",
             "Femenino"});
-            this.comboBoxSexo.Location = new System.Drawing.Point(261, 171);
+            this.comboBoxSexo.Location = new System.Drawing.Point(840, 59);
             this.comboBoxSexo.Name = "comboBoxSexo";
             this.comboBoxSexo.Size = new System.Drawing.Size(300, 30);
             this.comboBoxSexo.TabIndex = 47;
@@ -126,7 +126,7 @@
             // 
             this.txtTelefono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtTelefono.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtTelefono.Location = new System.Drawing.Point(261, 521);
+            this.txtTelefono.Location = new System.Drawing.Point(261, 352);
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(300, 28);
             this.txtTelefono.TabIndex = 22;
@@ -134,7 +134,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(38, 523);
+            this.label9.Location = new System.Drawing.Point(30, 352);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(86, 22);
             this.label9.TabIndex = 21;
@@ -143,7 +143,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(34, 380);
+            this.label8.Location = new System.Drawing.Point(24, 189);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(199, 22);
             this.label8.TabIndex = 19;
@@ -152,7 +152,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(30, 316);
+            this.label7.Location = new System.Drawing.Point(648, 143);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(172, 22);
             this.label7.TabIndex = 17;
@@ -160,7 +160,7 @@
             // 
             // dateTimePickerNacimiento
             // 
-            this.dateTimePickerNacimiento.Location = new System.Drawing.Point(261, 234);
+            this.dateTimePickerNacimiento.Location = new System.Drawing.Point(840, 248);
             this.dateTimePickerNacimiento.Name = "dateTimePickerNacimiento";
             this.dateTimePickerNacimiento.Size = new System.Drawing.Size(300, 28);
             this.dateTimePickerNacimiento.TabIndex = 16;
@@ -168,7 +168,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(34, 240);
+            this.label6.Location = new System.Drawing.Point(648, 248);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(184, 22);
             this.label6.TabIndex = 15;
@@ -178,7 +178,7 @@
             // 
             this.txtNumeroDocumento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtNumeroDocumento.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtNumeroDocumento.Location = new System.Drawing.Point(261, 380);
+            this.txtNumeroDocumento.Location = new System.Drawing.Point(261, 189);
             this.txtNumeroDocumento.Name = "txtNumeroDocumento";
             this.txtNumeroDocumento.Size = new System.Drawing.Size(300, 28);
             this.txtNumeroDocumento.TabIndex = 14;
@@ -186,7 +186,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(34, 443);
+            this.label2.Location = new System.Drawing.Point(30, 265);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 22);
             this.label2.TabIndex = 12;
@@ -195,7 +195,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(34, 174);
+            this.label1.Location = new System.Drawing.Point(648, 59);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 22);
             this.label1.TabIndex = 11;
@@ -205,7 +205,7 @@
             // 
             this.txtApellidos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtApellidos.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtApellidos.Location = new System.Drawing.Point(261, 114);
+            this.txtApellidos.Location = new System.Drawing.Point(261, 116);
             this.txtApellidos.Name = "txtApellidos";
             this.txtApellidos.Size = new System.Drawing.Size(300, 28);
             this.txtApellidos.TabIndex = 10;
@@ -214,7 +214,7 @@
             // 
             this.btnLimpiar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnLimpiar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLimpiar.Location = new System.Drawing.Point(470, 590);
+            this.btnLimpiar.Location = new System.Drawing.Point(534, 428);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(107, 51);
             this.btnLimpiar.TabIndex = 9;
@@ -225,7 +225,7 @@
             // 
             this.btnEditar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEditar.Location = new System.Drawing.Point(319, 590);
+            this.btnEditar.Location = new System.Drawing.Point(371, 428);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(107, 51);
             this.btnEditar.TabIndex = 8;
@@ -237,7 +237,7 @@
             // 
             this.btnEliinar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnEliinar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEliinar.Location = new System.Drawing.Point(170, 590);
+            this.btnEliinar.Location = new System.Drawing.Point(214, 428);
             this.btnEliinar.Name = "btnEliinar";
             this.btnEliinar.Size = new System.Drawing.Size(107, 51);
             this.btnEliinar.TabIndex = 7;
@@ -249,7 +249,7 @@
             // 
             this.btnAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnAgregar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAgregar.Location = new System.Drawing.Point(28, 590);
+            this.btnAgregar.Location = new System.Drawing.Point(45, 428);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(107, 51);
             this.btnAgregar.TabIndex = 6;
@@ -268,7 +268,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(34, 116);
+            this.label5.Location = new System.Drawing.Point(24, 118);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(88, 22);
             this.label5.TabIndex = 2;
@@ -294,11 +294,11 @@
             // dgvClientes
             // 
             this.dgvClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvClientes.Location = new System.Drawing.Point(719, 51);
+            this.dgvClientes.Location = new System.Drawing.Point(49, 585);
             this.dgvClientes.Name = "dgvClientes";
             this.dgvClientes.RowHeadersWidth = 51;
             this.dgvClientes.RowTemplate.Height = 24;
-            this.dgvClientes.Size = new System.Drawing.Size(699, 641);
+            this.dgvClientes.Size = new System.Drawing.Size(1204, 252);
             this.dgvClientes.TabIndex = 5;
             // 
             // label10
@@ -316,7 +316,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1472, 704);
+            this.ClientSize = new System.Drawing.Size(1472, 957);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.dgvClientes);
             this.Controls.Add(this.groupBox1);

@@ -30,7 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Administracion));
             this.MenuVertical = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnDetalleIngreso = new System.Windows.Forms.Button();
             this.btnMantenimiento = new System.Windows.Forms.Button();
             this.btnVentas = new System.Windows.Forms.Button();
             this.btnProductos = new System.Windows.Forms.Button();
@@ -42,6 +43,7 @@
             this.btnMenu = new System.Windows.Forms.PictureBox();
             this.panelContenedor = new System.Windows.Forms.Panel();
             this.MenuVertical.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.BarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnmenu1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).BeginInit();
@@ -50,7 +52,8 @@
             // MenuVertical
             // 
             this.MenuVertical.BackColor = System.Drawing.Color.DarkGray;
-            this.MenuVertical.Controls.Add(this.button1);
+            this.MenuVertical.Controls.Add(this.pictureBox1);
+            this.MenuVertical.Controls.Add(this.btnDetalleIngreso);
             this.MenuVertical.Controls.Add(this.btnMantenimiento);
             this.MenuVertical.Controls.Add(this.btnVentas);
             this.MenuVertical.Controls.Add(this.btnProductos);
@@ -62,20 +65,30 @@
             this.MenuVertical.Size = new System.Drawing.Size(250, 702);
             this.MenuVertical.TabIndex = 0;
             // 
-            // button1
+            // pictureBox1
             // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(-3, 615);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(247, 50);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Reporte Detalle";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(252, 86);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnDetalleIngreso
+            // 
+            this.btnDetalleIngreso.FlatAppearance.BorderSize = 0;
+            this.btnDetalleIngreso.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDetalleIngreso.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetalleIngreso.Image = ((System.Drawing.Image)(resources.GetObject("btnDetalleIngreso.Image")));
+            this.btnDetalleIngreso.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDetalleIngreso.Location = new System.Drawing.Point(-3, 615);
+            this.btnDetalleIngreso.Name = "btnDetalleIngreso";
+            this.btnDetalleIngreso.Size = new System.Drawing.Size(247, 50);
+            this.btnDetalleIngreso.TabIndex = 5;
+            this.btnDetalleIngreso.Text = "Reporte Detalle";
+            this.btnDetalleIngreso.UseVisualStyleBackColor = true;
+            this.btnDetalleIngreso.Click += new System.EventHandler(this.btnDetalleIngreso_Click);
             // 
             // btnMantenimiento
             // 
@@ -144,7 +157,7 @@
             this.btnHome.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
             this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHome.Location = new System.Drawing.Point(0, 77);
+            this.btnHome.Location = new System.Drawing.Point(-3, 92);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(247, 50);
             this.btnHome.TabIndex = 0;
@@ -220,6 +233,7 @@
             this.Text = "Administracion";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.MenuVertical.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.BarraTitulo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnmenu1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).EndInit();
@@ -240,6 +254,7 @@
         private System.Windows.Forms.PictureBox btnmenu1;
         private System.Windows.Forms.Panel panelContenedor;
         private System.Windows.Forms.Button btnMantenimiento;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnDetalleIngreso;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
