@@ -41,14 +41,12 @@ namespace SistemaGestionInventarios
         {
             if (isExpanded)
             {
-                // Guarda el tamaño original antes de cambiarlo
                 originalWidth = MenuVertical.Width;
                 MenuVertical.Width = 55;
                 isExpanded = false;
             }
             else
             {
-                // Restaura el tamaño original
                 MenuVertical.Width = originalWidth;
                 isExpanded = true;
             }

@@ -82,9 +82,9 @@
             this.btnDetalleIngreso.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetalleIngreso.Image = ((System.Drawing.Image)(resources.GetObject("btnDetalleIngreso.Image")));
             this.btnDetalleIngreso.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDetalleIngreso.Location = new System.Drawing.Point(-3, 615);
+            this.btnDetalleIngreso.Location = new System.Drawing.Point(-5, 601);
             this.btnDetalleIngreso.Name = "btnDetalleIngreso";
-            this.btnDetalleIngreso.Size = new System.Drawing.Size(247, 50);
+            this.btnDetalleIngreso.Size = new System.Drawing.Size(306, 50);
             this.btnDetalleIngreso.TabIndex = 5;
             this.btnDetalleIngreso.Text = "Reporte Detalle";
             this.btnDetalleIngreso.UseVisualStyleBackColor = true;
@@ -99,7 +99,7 @@
             this.btnMantenimiento.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMantenimiento.Location = new System.Drawing.Point(3, 526);
             this.btnMantenimiento.Name = "btnMantenimiento";
-            this.btnMantenimiento.Size = new System.Drawing.Size(247, 50);
+            this.btnMantenimiento.Size = new System.Drawing.Size(290, 50);
             this.btnMantenimiento.TabIndex = 4;
             this.btnMantenimiento.Text = "Mantenimiento";
             this.btnMantenimiento.UseVisualStyleBackColor = true;
