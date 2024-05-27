@@ -85,7 +85,6 @@
             // 
             this.txtDescuentos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtDescuentos.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtDescuentos.Enabled = false;
             this.txtDescuentos.Location = new System.Drawing.Point(548, 198);
             this.txtDescuentos.Name = "txtDescuentos";
             this.txtDescuentos.ReadOnly = true;
@@ -286,7 +285,6 @@
             this.Name = "FrmDetalleIngresos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmDetalleIngresos";
-            this.Load += new System.EventHandler(this.FrmDetalleIngresos_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetallesIngresos)).EndInit();

@@ -25,7 +25,7 @@ namespace CapaAccesoDatos
             using (MySqlConnection con = conexion.GetConnection())
             {
                 con.Open();
-                string query = "SELECT IdTrabajador, Nombres, Apellidos, Sexo, FechaNacimiento, NumeroDocumento, Direccion, Telefono FROM Trabajador";
+                string query = "SELECT IdTrabajador, Nombres FROM Trabajador";
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
                 adapter.Fill(dtTrabajadores);
@@ -82,13 +82,6 @@ namespace CapaAccesoDatos
             using (MySqlConnection con = conexion.GetConnection())
             {
                 con.Open();
-
-                // Eliminar los registros relacionados en la tabla 'Ingreso'
-                string queryIngreso = "DELETE FROM Ingreso WHERE IdTrabajador = @IdTrabajador";
-                MySqlCommand cmdIngreso = new MySqlCommand(queryIngreso, con);
-                cmdIngreso.Parameters.AddWithValue("@IdTrabajador", idTrabajador);
-                cmdIngreso.ExecuteNonQuery();
-
                 string query = "DELETE FROM Trabajador WHERE IdTrabajador = @IdTrabajador";
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@IdTrabajador", idTrabajador);

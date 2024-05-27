@@ -19,7 +19,7 @@ namespace CapaLogicaNegocios
         }
 
         public DataTable ObtenerTrabajadores()
-        {          
+        {
             return trabajadoresDAL.ObtenerTrabajadores();
         }
 

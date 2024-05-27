@@ -43,13 +43,9 @@
   <ItemGroup>
     <Compile Include="BL_Articulos.cs" />
     <Compile Include="BL_Categorias.cs" />
-    <Compile Include="BL_Clientes.cs" />
-    <Compile Include="BL_DetalleIngresos.cs" />
-    <Compile Include="BL_DetalleVentas.cs" />
     <Compile Include="BL_Ingresos.cs" />
     <Compile Include="BL_Proveedores.cs" />
     <Compile Include="BL_Trabajadores.cs" />
-    <Compile Include="BL_Ventas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -96,12 +96,6 @@
     <Compile Include="FrmDetalleIngresos.Designer.cs">
       <DependentUpon>FrmDetalleIngresos.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmDetalleVentas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmDetalleVentas.Designer.cs">
-      <DependentUpon>FrmDetalleVentas.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrmIngresos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +107,12 @@
     </Compile>
     <Compile Include="FrmProveedor.Designer.cs">
       <DependentUpon>FrmProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportes.Designer.cs">
+      <DependentUpon>FrmReportes.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmTrabajadores.cs">
       <SubType>Form</SubType>
@@ -148,6 +148,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmProveedor.resx">
       <DependentUpon>FrmProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportes.resx">
+      <DependentUpon>FrmReportes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmTrabajadores.resx">
       <DependentUpon>FrmTrabajadores.cs</DependentUpon>
@@ -190,6 +193,10 @@
     <ProjectReference Include="..\CapaLogicaNegocios\CapaLogicaNegocios.csproj">
       <Project>{152ab4c4-b579-49e8-9de3-2d546238ccaf}</Project>
       <Name>CapaLogicaNegocios</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Reportes\Reportes.csproj">
+      <Project>{23ee68ae-a0a9-4925-9a80-945885faa886}</Project>
+      <Name>Reportes</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

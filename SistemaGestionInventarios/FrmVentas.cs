@@ -35,20 +35,10 @@ namespace SistemaGestionInventarios
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
-           
+            
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FrmVentas_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dgvVentas_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

@@ -27,10 +27,5 @@ namespace SistemaGestionInventarios
         {
 
         }
-
-        private void FrmDetalleIngresos_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

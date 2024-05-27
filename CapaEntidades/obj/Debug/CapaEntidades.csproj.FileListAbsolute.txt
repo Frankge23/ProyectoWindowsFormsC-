@@ -4,3 +4,9 @@ C:\Users\OA\source\repos\SolucionGestionInventarios\CapaEntidades\obj\Debug\Capa
 C:\Users\OA\source\repos\SolucionGestionInventarios\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
 C:\Users\OA\source\repos\SolucionGestionInventarios\CapaEntidades\obj\Debug\CapaEntidades.dll
 C:\Users\OA\source\repos\SolucionGestionInventarios\CapaEntidades\obj\Debug\CapaEntidades.pdb
+D:\PROGRAMAS BASE\ProyectoWindowsFormsC-\CapaEntidades\bin\Debug\CapaEntidades.dll
+D:\PROGRAMAS BASE\ProyectoWindowsFormsC-\CapaEntidades\bin\Debug\CapaEntidades.pdb
+D:\PROGRAMAS BASE\ProyectoWindowsFormsC-\CapaEntidades\obj\Debug\CapaEntidades.csproj.AssemblyReference.cache
+D:\PROGRAMAS BASE\ProyectoWindowsFormsC-\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+D:\PROGRAMAS BASE\ProyectoWindowsFormsC-\CapaEntidades\obj\Debug\CapaEntidades.dll
+D:\PROGRAMAS BASE\ProyectoWindowsFormsC-\CapaEntidades\obj\Debug\CapaEntidades.pdb
