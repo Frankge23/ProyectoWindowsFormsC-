@@ -175,11 +175,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(24, 119);
+            this.label4.Location = new System.Drawing.Point(31, 119);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(161, 22);
+            this.label4.Size = new System.Drawing.Size(83, 22);
             this.label4.TabIndex = 1;
-            this.label4.Text = "Nombre Categoria:";
+            this.label4.Text = "Nombre :";
             // 
             // label3
             // 

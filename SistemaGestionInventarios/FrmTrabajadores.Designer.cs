@@ -30,13 +30,13 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtDireccion = new System.Windows.Forms.TextBox();
-            this.comboBoxSexo = new System.Windows.Forms.ComboBox();
+            this.cmbSexo = new System.Windows.Forms.ComboBox();
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.dateTimePickerNacimiento = new System.Windows.Forms.DateTimePicker();
+            this.dtpNacimiento = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
-            this.txtNumeroDUI = new System.Windows.Forms.TextBox();
+            this.txtNumeroDocumento = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtApellidos = new System.Windows.Forms.TextBox();
@@ -57,13 +57,13 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.txtDireccion);
-            this.groupBox1.Controls.Add(this.comboBoxSexo);
+            this.groupBox1.Controls.Add(this.cmbSexo);
             this.groupBox1.Controls.Add(this.txtTelefono);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.dateTimePickerNacimiento);
+            this.groupBox1.Controls.Add(this.dtpNacimiento);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.txtNumeroDUI);
+            this.groupBox1.Controls.Add(this.txtNumeroDocumento);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.txtApellidos);
@@ -94,17 +94,17 @@
             this.txtDireccion.Size = new System.Drawing.Size(300, 52);
             this.txtDireccion.TabIndex = 49;
             // 
-            // comboBoxSexo
+            // cmbSexo
             // 
-            this.comboBoxSexo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.comboBoxSexo.FormattingEnabled = true;
-            this.comboBoxSexo.Items.AddRange(new object[] {
+            this.cmbSexo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.cmbSexo.FormattingEnabled = true;
+            this.cmbSexo.Items.AddRange(new object[] {
             "Masculino",
             "Femenino"});
-            this.comboBoxSexo.Location = new System.Drawing.Point(850, 61);
-            this.comboBoxSexo.Name = "comboBoxSexo";
-            this.comboBoxSexo.Size = new System.Drawing.Size(300, 30);
-            this.comboBoxSexo.TabIndex = 48;
+            this.cmbSexo.Location = new System.Drawing.Point(850, 61);
+            this.cmbSexo.Name = "cmbSexo";
+            this.cmbSexo.Size = new System.Drawing.Size(300, 30);
+            this.cmbSexo.TabIndex = 48;
             // 
             // txtTelefono
             // 
@@ -133,12 +133,12 @@
             this.label8.TabIndex = 19;
             this.label8.Text = "Numero de DUI";
             // 
-            // dateTimePickerNacimiento
+            // dtpNacimiento
             // 
-            this.dateTimePickerNacimiento.Location = new System.Drawing.Point(850, 243);
-            this.dateTimePickerNacimiento.Name = "dateTimePickerNacimiento";
-            this.dateTimePickerNacimiento.Size = new System.Drawing.Size(300, 28);
-            this.dateTimePickerNacimiento.TabIndex = 16;
+            this.dtpNacimiento.Location = new System.Drawing.Point(850, 243);
+            this.dtpNacimiento.Name = "dtpNacimiento";
+            this.dtpNacimiento.Size = new System.Drawing.Size(300, 28);
+            this.dtpNacimiento.TabIndex = 16;
             // 
             // label6
             // 
@@ -149,14 +149,14 @@
             this.label6.TabIndex = 15;
             this.label6.Text = "Fecha de Nacimiento:";
             // 
-            // txtNumeroDUI
+            // txtNumeroDocumento
             // 
-            this.txtNumeroDUI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.txtNumeroDUI.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtNumeroDUI.Location = new System.Drawing.Point(261, 170);
-            this.txtNumeroDUI.Name = "txtNumeroDUI";
-            this.txtNumeroDUI.Size = new System.Drawing.Size(300, 28);
-            this.txtNumeroDUI.TabIndex = 14;
+            this.txtNumeroDocumento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.txtNumeroDocumento.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtNumeroDocumento.Location = new System.Drawing.Point(261, 170);
+            this.txtNumeroDocumento.Name = "txtNumeroDocumento";
+            this.txtNumeroDocumento.Size = new System.Drawing.Size(300, 28);
+            this.txtNumeroDocumento.TabIndex = 14;
             // 
             // label2
             // 
@@ -270,13 +270,18 @@
             // 
             // dgvTrabajadores
             // 
+            this.dgvTrabajadores.AllowUserToAddRows = false;
+            this.dgvTrabajadores.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvTrabajadores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTrabajadores.Location = new System.Drawing.Point(27, 490);
             this.dgvTrabajadores.Name = "dgvTrabajadores";
             this.dgvTrabajadores.RowHeadersWidth = 51;
             this.dgvTrabajadores.RowTemplate.Height = 24;
+            this.dgvTrabajadores.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvTrabajadores.Size = new System.Drawing.Size(1215, 247);
             this.dgvTrabajadores.TabIndex = 6;
+            this.dgvTrabajadores.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTrabajadores_CellContentClick);
+            this.dgvTrabajadores.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTrabajadores_CellContentClick);
             // 
             // label7
             // 
@@ -300,6 +305,7 @@
             this.Name = "FrmTrabajadores";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmTrabajadores";
+            this.Load += new System.EventHandler(this.FrmTrabajadores_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTrabajadores)).EndInit();
@@ -314,9 +320,9 @@
         private System.Windows.Forms.TextBox txtTelefono;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.DateTimePicker dateTimePickerNacimiento;
+        private System.Windows.Forms.DateTimePicker dtpNacimiento;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtNumeroDUI;
+        private System.Windows.Forms.TextBox txtNumeroDocumento;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtApellidos;
@@ -330,7 +336,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dgvTrabajadores;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBoxSexo;
+        private System.Windows.Forms.ComboBox cmbSexo;
         private System.Windows.Forms.TextBox txtDireccion;
     }
 }
